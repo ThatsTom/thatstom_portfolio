@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f0f0f">
+  <meta name="color-scheme" content="dark">
+  <meta name="description"
+    content="Thomas Holanda — soluções Full Stack, agentes de IA e automação de processos. Conheça serviços como Atalanta, Samira e outras possibilidades de implantação.">
+  <meta property="og:title" content="Thomas Holanda | Full Stack, IA & Automação">
+  <meta property="og:description"
+    content="Software que conecta pessoas, dados e processos. Explore soluções implantáveis, uma demonstração interativa da Samira e formatos de atuação para empresas.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary">
+  <title>Thomas Holanda — Full Stack, IA & Automação</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=VT323&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script defer src="assets/vendor/gsap.min.js"></script>
+  <script defer src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script defer src="assets/js/data.js"></script>
+  <script defer src="assets/js/core.js"></script>
+  <script defer src="assets/js/catalog.js"></script>
+  <script defer src="assets/js/explorer.js"></script>
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="assets/js/demo.js"></script>
+  <script id="person-structured-data"
+    type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Thomas Holanda","jobTitle":"Full Stack Developer","knowsAbout":["Software Engineering","Artificial Intelligence","Process Automation","Node.js","TypeScript","Python"]}</script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14M13 6l6 6-6 6" />
+      </symbol>
+      <symbol id="icon-external" viewBox="0 0 24 24">
+        <path d="M6 18 18 6M6 6h12v12" />
+      </symbol>
+      <symbol id="icon-code" viewBox="0 0 24 24">
+        <path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18" />
+      </symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24">
+        <path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5Z" />
+      </symbol>
+      <symbol id="icon-flow" viewBox="0 0 24 24">
+        <rect x="2" y="9" width="6" height="6" rx="1" />
+        <rect x="16" y="2" width="6" height="6" rx="1" />
+        <rect x="16" y="16" width="6" height="6" rx="1" />
+        <path d="M8 12h4m0 0V5h4m-4 7v7h4" />
+      </symbol>
+      <symbol id="icon-database" viewBox="0 0 24 24">
+        <ellipse cx="12" cy="5" rx="8" ry="3" />
+        <path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0" />
+      </symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24">
+        <rect x="5" y="10" width="14" height="11" rx="2" />
+        <path d="M8 10V6a4 4 0 0 1 8 0v4m-4 5v2" />
+      </symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24">
+        <path d="M12 5v14M5 12h14" />
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path d="m6 6 12 12M6 18 18 6" />
+      </symbol>
+      <symbol id="icon-copy" viewBox="0 0 24 24">
+        <rect x="8" y="8" width="12" height="13" rx="2" />
+        <path d="M16 8V3H3v13h5" />
+      </symbol>
+      <symbol id="icon-chat" viewBox="0 0 24 24">
+        <path d="M21 11a9 9 0 0 1-9 9 10 10 0 0 1-4-1l-5 2 1-5a9 9 0 1 1 17-5Z" />
+        <path d="M8 10h8m-8 4h5" />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 12 5 5L20 7" />
+      </symbol>
+
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path fill="currentColor" stroke="none"
+          d="M12 .75a11.25 11.25 0 0 0-3.558 21.926c.562.104.77-.245.77-.544 0-.27-.01-.983-.016-1.93-3.131.68-3.79-1.34-3.79-1.34-.513-1.302-1.254-1.65-1.254-1.65-1.025-.7.077-.686.077-.686 1.134.08 1.731 1.164 1.731 1.164 1.008 1.724 2.643 1.227 3.286.936.103-.731.395-1.226.718-1.51-2.5-.285-5.13-1.253-5.13-5.56 0-1.229.438-2.233 1.163-3.021-.117-.285-.504-1.431.11-2.98 0 0 .945-.3 3.094 1.153A10.7 10.7 0 0 1 12 6.24c.955.004 1.917.13 2.816.377 2.147-1.453 3.091-1.153 3.091-1.153.615 1.55.228 2.695.113 2.98.725.788 1.159 1.792 1.159 3.021 0 4.316-2.634 5.271-5.144 5.551.406.353.77 1.05.77 2.117 0 1.53-.014 2.763-.014 3.137 0 .3.204.653.775.542A11.25 11.25 0 0 0 12 .75Z" />
+      </symbol>
+      <symbol id="icon-linkedin" viewBox="0 0 24 24">
+        <path fill="currentColor" stroke="none"
+          d="M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2ZM7.93 18.76H4.97V9.2h2.96v9.56ZM6.45 7.89a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.31 10.87H15.8V14.1c0-1.11-.02-2.55-1.55-2.55-1.56 0-1.8 1.22-1.8 2.47v4.74H9.49V9.2h2.84v1.3h.04a3.12 3.12 0 0 1 2.8-1.54c2.99 0 3.59 1.97 3.59 4.53v5.27Z" />
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <rect x="2.4" y="2.4" width="19.2" height="19.2" rx="5.3" />
+        <circle cx="12" cy="12" r="4.1" />
+        <circle cx="17.6" cy="6.5" r="1.15" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="currentColor" stroke="none" />
+      </symbol>
+
+      <!-- Símbolos de tecnologia de Simple Icons 14.15.0, em cor monocromática. -->
+      <symbol id="icon-tech-node" viewBox="0 0 24 24">
+        <path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-tech-typescript" viewBox="0 0 24 24">
+        <path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-tech-react" viewBox="0 0 24 24">
+        <path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-tech-angular" viewBox="0 0 24 24">
+        <path d="M16.712 17.711H7.288l-1.204 2.916L12 24l5.916-3.373-1.204-2.916ZM14.692 0l7.832 16.855.814-12.856L14.692 0ZM9.308 0 .662 3.999l.814 12.856L9.308 0Zm-.405 13.93h6.198L12 6.396 8.903 13.93Z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-tech-python" viewBox="0 0 24 24">
+        <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-tech-openai" viewBox="0 0 24 24">
+        <path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-tech-docker" viewBox="0 0 24 24">
+        <path d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z" fill="currentColor" stroke="none" />
+      </symbol>
+      <symbol id="icon-tech-aws" viewBox="0 0 24 24">
+        <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.04.063.056.127.056.183 0 .08-.048.16-.152.24l-.503.335a.383.383 0 0 1-.208.072c-.08 0-.16-.04-.239-.112a2.47 2.47 0 0 1-.287-.375 6.18 6.18 0 0 1-.248-.471c-.622.734-1.405 1.101-2.347 1.101-.67 0-1.205-.191-1.596-.574-.391-.384-.59-.894-.59-1.533 0-.678.239-1.23.726-1.644.487-.415 1.133-.623 1.955-.623.272 0 .551.024.846.064.296.04.6.104.918.176v-.583c0-.607-.127-1.03-.375-1.277-.255-.248-.686-.367-1.3-.367-.28 0-.568.031-.863.103-.295.072-.583.16-.862.272a2.287 2.287 0 0 1-.28.104.488.488 0 0 1-.127.023c-.112 0-.168-.08-.168-.247v-.391c0-.128.016-.224.056-.28a.597.597 0 0 1 .224-.167c.279-.144.614-.264 1.005-.36a4.84 4.84 0 0 1 1.246-.151c.95 0 1.644.216 2.091.647.439.43.662 1.085.662 1.963v2.586zm-3.24 1.214c.263 0 .534-.048.822-.144.287-.096.543-.271.758-.51.128-.152.224-.32.272-.512.047-.191.08-.423.08-.694v-.335a6.66 6.66 0 0 0-.735-.136 6.02 6.02 0 0 0-.75-.048c-.535 0-.926.104-1.19.32-.263.215-.39.518-.39.917 0 .375.095.655.295.846.191.2.47.296.838.296zm6.41.862c-.144 0-.24-.024-.304-.08-.064-.048-.12-.16-.168-.311L7.586 5.55a1.398 1.398 0 0 1-.072-.32c0-.128.064-.2.191-.2h.783c.151 0 .255.025.31.08.065.048.113.16.16.312l1.342 5.284 1.245-5.284c.04-.16.088-.264.151-.312a.549.549 0 0 1 .32-.08h.638c.152 0 .256.025.32.08.063.048.12.16.151.312l1.261 5.348 1.381-5.348c.048-.16.104-.264.16-.312a.52.52 0 0 1 .311-.08h.743c.127 0 .2.065.2.2 0 .04-.009.08-.017.128a1.137 1.137 0 0 1-.056.2l-1.923 6.17c-.048.16-.104.263-.168.311a.51.51 0 0 1-.303.08h-.687c-.151 0-.255-.024-.32-.08-.063-.056-.119-.16-.15-.32l-1.238-5.148-1.23 5.14c-.04.16-.087.264-.15.32-.065.056-.177.08-.32.08zm10.256.215c-.415 0-.83-.048-1.229-.143-.399-.096-.71-.2-.918-.32-.128-.071-.215-.151-.247-.223a.563.563 0 0 1-.048-.224v-.407c0-.167.064-.247.183-.247.048 0 .096.008.144.024.048.016.12.048.2.08.271.12.566.215.878.279.319.064.63.096.95.096.502 0 .894-.088 1.165-.264a.86.86 0 0 0 .415-.758.777.777 0 0 0-.215-.559c-.144-.151-.416-.287-.807-.415l-1.157-.36c-.583-.183-1.014-.454-1.277-.813a1.902 1.902 0 0 1-.4-1.158c0-.335.073-.63.216-.886.144-.255.335-.479.575-.654.24-.184.51-.32.83-.415.32-.096.655-.136 1.006-.136.175 0 .359.008.535.032.183.024.35.056.518.088.16.04.312.08.455.127.144.048.256.096.336.144a.69.69 0 0 1 .24.2.43.43 0 0 1 .071.263v.375c0 .168-.064.256-.184.256a.83.83 0 0 1-.303-.096 3.652 3.652 0 0 0-1.532-.311c-.455 0-.815.071-1.062.223-.248.152-.375.383-.375.71 0 .224.08.416.24.567.159.152.454.304.877.44l1.134.358c.574.184.99.44 1.237.767.247.327.367.702.367 1.117 0 .343-.072.655-.207.926-.144.272-.336.511-.583.703-.248.2-.543.343-.886.447-.36.111-.734.167-1.142.167zM21.698 16.207c-2.626 1.94-6.442 2.969-9.722 2.969-4.598 0-8.74-1.7-11.87-4.526-.247-.223-.024-.527.272-.351 3.384 1.963 7.559 3.153 11.877 3.153 2.914 0 6.114-.607 9.06-1.852.439-.2.814.287.383.607zM22.792 14.961c-.336-.43-2.22-.207-3.074-.103-.255.032-.295-.192-.063-.36 1.5-1.053 3.967-.75 4.254-.399.287.36-.08 2.826-1.485 4.007-.215.184-.423.088-.327-.151.32-.79 1.03-2.57.695-2.994z" fill="currentColor" stroke="none" />
+      </symbol>
+    </defs>
+  </svg>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand brand-logo-link" href="#inicio" aria-label="Thomas Holanda — início"><img
+          class="brand-logo" src="assets/logo/logo.svg" alt="" width="76" height="76"></a>
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#projetos">Soluções</a><a href="#laboratorio">Demonstração</a><a
+          href="#servicos">Atuação</a><a href="#sobre">Sobre</a>
+        <a class="nav-contact" href="#contato">Vamos conversar <svg class="icon">
+            <use href="#icon-external" />
+          </svg></a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="main-nav"
+        aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section id="inicio" class="cover-section section-anchor" aria-labelledby="cover-title">
+      <div class="cover-shell">
+        <div class="cover-meta">
+          <span>PORTFÓLIO DIGITAL</span>
+          <span class="cover-meta-right"><span class="cover-meta-dot"></span>DESENVOLVIMENTO SOB MEDIDA PARA
+            EMPRESAS</span>
+        </div>
+        <div id="cover-stage" class="cover-stage" data-cover="software">
+          <div class="cover-grid-layer" aria-hidden="true"></div>
+          <div class="cover-glow" aria-hidden="true"></div>
+          <div class="cover-scan" aria-hidden="true"></div>
+          <div class="cover-ambient-label" aria-hidden="true">// THOMAS HOLANDA <span>_</span></div>
+          <div class="cover-signal-path cover-signal-path-a" aria-hidden="true"></div>
+          <div class="cover-signal-path cover-signal-path-b" aria-hidden="true"></div>
+          <svg class="cover-circuit" viewBox="0 0 1300 660" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="1">
+              <path d="M660 -20v170l130 130h270l100 100h180" />
+              <path d="M370 690V530l180-180h310l150-150h340" />
+              <path d="M900 -20v110l-120 120H590l-115 115H-20" />
+              <path d="M1350 500h-250l-110-90H610l-100 105H-20" />
+              <circle cx="790" cy="280" r="92" />
+              <circle cx="790" cy="280" r="159" stroke-dasharray="3 14" />
+              <circle cx="790" cy="280" r="238" stroke-dasharray="1 28" />
+            </g>
+            <g fill="currentColor">
+              <circle cx="790" cy="280" r="4" />
+              <circle cx="1160" cy="380" r="4" />
+              <circle cx="475" cy="325" r="3" />
+              <circle cx="510" cy="515" r="4" />
+            </g>
+          </svg>
+          <div class="cover-stage-mark" aria-hidden="true">TOM_</div>
+          <div class="cover-main" id="visao">
+            <p class="cover-overline"> FULL STACK DEVELOPER / AI & AUTOMATION</p>
+            <h1 class="cover-title" id="cover-title"><span>DA IDEIA</span><span><em>À ENTREGA</em><b
+                  aria-hidden="true">_</b></span></h1>
+            <div class="cover-introduction">
+              <p class="cover-introduction-tag">SOFTWARE QUE CONECTA PESSOAS, DADOS E PROCESSOS</p>
+              <h2>Código que conecta.<br><span>Soluções que fazem sentido.</span></h2>
+            </div>
+            <p class="cover-description">Desenvolvo aplicações, integro sistemas e construo automações e agentes de IA
+              personalizados para tornar processos mais simples. Quando fazem sentido para o projeto, aplico RAG,
+              bancos vetoriais e fine-tuning. Da necessidade à implantação, com foco no que funciona para cada negócio.</p>
+            <div class="cover-actions">
+              <a class="button button-primary" href="#projetos">Explorar soluções <svg class="icon">
+                  <use href="#icon-arrow" />
+                </svg></a>
+              <a class="cover-project-link" data-contact="github" target="_blank" rel="noopener noreferrer">Meu GitHub
+                <svg class="icon">
+                  <use href="#icon-external" />
+                </svg></a>
+            </div>
+            <div class="cover-capabilities" aria-label="Especialidades">
+              <span><i>01</i> SOFTWARE SOB MEDIDA</span>
+              <span><i>02</i> AGENTES DE IA</span>
+              <span><i>03</i> AUTOMAÇÃO & INTEGRAÇÕES</span>
+            </div>
+            <div class="cover-personal-info"><span>SÃO PAULO, BR</span><span class="cover-personal-line"
+                aria-hidden="true"></span><span>SOFTWARE + DADOS + PESSOAS</span></div>
+          </div>
+          <aside class="cover-control" aria-label="Explorador de áreas de atuação">
+            <div class="cover-control-head"><span>EXPLORADOR / ÁREAS</span><span id="area-count" class="cover-indicator"></span>
+            </div>
+            <div class="cover-diagram" aria-hidden="true"><span class="cover-orbit orbit-a"></span><span
+                class="cover-orbit orbit-b"></span><span class="cover-diagram-sweep"></span><span
+                class="cover-pulse cover-pulse-a"></span><span class="cover-pulse cover-pulse-b"></span><span
+                class="cover-diagram-core"><span id="cover-diagram-name"></span><span class="cover-diagram-underscore">_</span></span><i class="cover-point p1"></i><i
+                class="cover-point p2"></i><i class="cover-point p3"></i><span class="cover-diagram-coordinate">X 23.55
+                / Y 46.63</span></div>
+
+            <div class="cover-switcher" role="group" aria-label="Selecione uma área"></div>
+            <div class="cover-readout" aria-live="polite">
+              <span id="cover-readout-title"></span>
+              <p id="cover-readout-text"></p>
+              <div id="cover-readout-highlights" class="cover-readout-highlights"></div>
+            </div>
+            <button id="area-open" class="cover-explore-action" type="button"><span id="area-open-label"></span><svg class="icon">
+                <use href="#icon-external" />
+              </svg></button>
+          </aside>
+          <div class="cover-corner-label" aria-hidden="true">SISTEMA ONLINE <span>●</span></div>
+        </div>
+        <div class="cover-bottom">
+          <span><span class="cover-bottom-star" aria-hidden="true">✳</span> ESCOLHA UMA ÁREA E EXPLORE SUAS
+            POSSIBILIDADES</span>
+          <a href="#projetos">DESÇA PARA CONHECER AS SOLUÇÕES <span aria-hidden="true">↓</span></a>
+          <button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="true"><span class="motion-symbol"
+              aria-hidden="true">Ⅱ</span><span id="motion-label">Pausar animações</span></button>
+        </div>
+      </div>
+    </section>
+    <div class="stack-strip" aria-label="Tecnologias em destaque">
+      <div class="container stack-strip-inner"><span class="strip-label">NO MEU TOOLKIT</span>
+        <div class="toolkit-marquee" role="region" aria-label="Tecnologias do toolkit, rolagem horizontal" tabindex="0">
+            <div class="toolkit-list" role="list"><span class="toolkit-item" data-tech="node" role="listitem" tabindex="0"><svg class="icon toolkit-icon"
+              aria-hidden="true">
+              <use href="#icon-tech-node" />
+            </svg><span>Node.js</span></span><span class="toolkit-item" data-tech="typescript" role="listitem" tabindex="0"><svg class="icon toolkit-icon"
+              aria-hidden="true">
+              <use href="#icon-tech-typescript" />
+            </svg><span>TypeScript</span></span><span class="toolkit-item" data-tech="react" role="listitem" tabindex="0"><svg
+              class="icon toolkit-icon" aria-hidden="true">
+              <use href="#icon-tech-react" />
+            </svg><span>React</span></span><span class="toolkit-item" data-tech="angular" role="listitem" tabindex="0"><svg class="icon toolkit-icon"
+              aria-hidden="true">
+              <use href="#icon-tech-angular" />
+            </svg><span>Angular</span></span><span class="toolkit-item" data-tech="python" role="listitem" tabindex="0"><svg class="icon toolkit-icon"
+              aria-hidden="true">
+              <use href="#icon-tech-python" />
+            </svg><span>Python</span></span><span class="toolkit-item" data-tech="openai" role="listitem" tabindex="0"><svg class="icon toolkit-icon"
+              aria-hidden="true">
+              <use href="#icon-tech-openai" />
+            </svg><span>OpenAI</span></span><span class="toolkit-item" data-tech="docker" role="listitem" tabindex="0"><svg class="icon toolkit-icon"
+              aria-hidden="true">
+              <use href="#icon-tech-docker" />
+            </svg><span>Docker</span></span><span class="toolkit-item" data-tech="aws" role="listitem" tabindex="0"><svg class="icon toolkit-icon"
+              aria-hidden="true">
+              <use href="#icon-tech-aws" />
+            </svg><span>AWS</span></span></div>
+        </div>
+      </div>
+    </div>
+    <section id="projetos" class="section projects-section section-anchor">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">01 / SOLUÇÕES & SERVIÇOS</p>
+            <h2>Soluções pensadas<br>para <span class="accent">serem implantadas.</span></h2>
+          </div>
+          <p class="section-intro">Da organização da operação a agentes de IA, atendimento e automações conectadas ao
+            contexto da empresa.</p>
+        </div>
+        <div class="project-toolbar reveal">
+          <div class="filters" role="group" aria-label="Filtrar soluções"><button class="filter is-active"
+              data-filter="all" type="button" aria-pressed="true">Todas <span id="project-count"></span></button><button
+              class="filter" data-filter="fullstack" type="button" aria-pressed="false">Plataformas</button><button
+              class="filter" data-filter="ai" type="button" aria-pressed="false">IA & Dados</button><button
+              class="filter" data-filter="automation" type="button" aria-pressed="false">Automação</button><button
+              class="filter" data-filter="integration" type="button" aria-pressed="false">Integrações</button></div><span
+            class="project-hint">EXPLORE CADA SOLUÇÃO <svg class="icon">
+              <use href="#icon-external" />
+            </svg></span>
+        </div>
+        <div id="project-carousel" class="project-carousel reveal" role="region" aria-roledescription="carrossel" aria-label="Soluções e serviços">
+          <div class="project-carousel-bar">
+            <span class="project-carousel-position" aria-hidden="true"><strong id="project-slide-current">01</strong><span>/</span><span id="project-slide-total"></span></span>
+            <div class="project-carousel-controls" role="group" aria-label="Controles das soluções">
+              <button id="project-prev" class="project-carousel-button" type="button" aria-label="Solução anterior"><svg class="icon" aria-hidden="true"><use href="#icon-arrow" /></svg></button>
+              <button id="project-pause" class="project-carousel-button" type="button" aria-label="Pausar passagem automática" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+              <button id="project-next" class="project-carousel-button" type="button" aria-label="Próxima solução"><svg class="icon" aria-hidden="true"><use href="#icon-arrow" /></svg></button>
+            </div>
+          </div>
+          <div class="project-carousel-viewport">
+            <div id="project-grid" class="project-grid"></div>
+          </div>
+          <p class="project-carousel-gesture-hint" aria-hidden="true">← ARRASTE O CARD PARA NAVEGAR →</p>
+        </div>
+        <p id="project-status" class="sr-only" aria-live="polite"></p>
+        <p class="projects-note"><span aria-hidden="true">[ i ]</span> Soluções privadas são apresentadas por contexto,
+          módulos e arquitetura. As interfaces dos cards são representações conceituais.</p>
+      </div>
+    </section>
+    <section id="laboratorio" class="section lab-section section-anchor">
+      <div class="container">
+        <div class="lab-layout">
+          <div class="lab-copy reveal">
+            <p class="eyebrow">02 / DEMONSTRAÇÃO INTERATIVA</p>
+            <h2>Uma conversa.<br><span class="accent">Várias conexões.</span></h2>
+            <p class="lab-lead">Veja como um atendimento pode revelar oportunidades reais de serviço.</p>
+            <p>A conversa começa no WhatsApp, entende o contexto e direciona o próximo passo — plataforma,
+              agente de IA, automação, integração com ERP, dados ou segurança.</p>
+            <p>Explore seis cenários e acompanhe como a informação evolui até uma proposta de serviço.</p>
+            <div class="lab-capabilities"><span><svg class="icon">
+                  <use href="#icon-check" />
+                </svg> Qualificação inicial</span><span><svg class="icon">
+                  <use href="#icon-check" />
+                </svg> Contexto e regras</span><span><svg class="icon">
+                  <use href="#icon-check" />
+                </svg> Encaminhamento comercial</span></div><button class="text-link" type="button"
+              data-project="samira">Ver módulos da Samira <svg class="icon">
+                <use href="#icon-arrow" />
+              </svg></button>
+            <div class="lab-caption"><span class="pixel-star" aria-hidden="true">✳</span>
+              <p>Escolha um cenário.<br>Você participa da demonstração.</p>
+            </div>
+          </div>
+          <div id="samira-demo" class="reveal"></div>
+        </div>
+      </div>
+    </section>
+    <section id="servicos" class="section services-section section-anchor">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">03 / FORMATOS DE ATUAÇÃO</p>
+            <h2>Da conversa inicial<br>à <span class="accent">implantação.</span></h2>
+          </div>
+          <p class="section-intro">Posso atuar desde o diagnóstico da operação até a implantação, integração, suporte e
+            evolução contínua.</p>
+        </div>
+        <div id="service-grid" class="service-grid"></div>
+        <div class="process-line reveal"><span>MAPEAR</span><svg class="icon">
+            <use href="#icon-arrow" />
+          </svg><span>ESTRUTURAR</span><svg class="icon">
+            <use href="#icon-arrow" />
+          </svg><span>IMPLANTAR</span><svg class="icon">
+            <use href="#icon-arrow" />
+          </svg><span>EVOLUIR</span>
+          <p>O processo começa com uma boa conversa.</p>
+        </div>
+      </div>
+    </section>
+    <section id="sobre" class="section about-section section-anchor">
+      <div class="container">
+        <div class="about-layout">
+          <div class="about-title reveal">
+            <p class="eyebrow">04 / QUEM ESTÁ POR TRÁS</p>
+            <h2 class="about-cycle-heading" aria-label="Vejo além do código. Construo para pessoas. Processos mais simples. Possibilidades maiores.">
+              <span class="about-cycle-row">
+                <span class="about-cycle-reserve" aria-hidden="true">Vejo além</span>
+                <span class="about-cycle-reserve" aria-hidden="true">Construo para</span>
+                <span class="about-cycle-reserve" aria-hidden="true">Processos mais</span>
+                <span class="about-cycle-reserve" aria-hidden="true">Possibilidades</span>
+                <span class="about-cycle-live" aria-hidden="true">Vejo além</span>
+              </span>
+              <span class="about-cycle-row">
+                <span class="about-cycle-reserve" aria-hidden="true">do código.</span>
+                <span class="about-cycle-reserve" aria-hidden="true">pessoas.</span>
+                <span class="about-cycle-reserve" aria-hidden="true">simples.</span>
+                <span class="about-cycle-reserve" aria-hidden="true">maiores.</span>
+                <span class="about-cycle-live" aria-hidden="true">do código.</span>
+              </span>
+            </h2>
+            <figure class="about-portrait">
+              <img src="assets/perfil/foto_perfil.jpeg" alt="Retrato de Thomas Holanda" width="1440" height="1440"
+                loading="lazy" decoding="async">
+              <span class="about-portrait-scan" aria-hidden="true"></span>
+              <figcaption><span>THOMAS HOLANDA</span><span>FULL STACK / IA & AUTOMAÇÃO</span></figcaption>
+            </figure>
+            <div class="signature">thomas_holanda<span aria-hidden="true">();</span></div>
+          </div>
+          <div class="about-content reveal">
+            <p class="about-lead">Sou Thomas R. de Holanda, desenvolvedor Full Stack. Minha curiosidade vai além do código:
+              quero entender como as pessoas trabalham e criar tecnologia que faça diferença na rotina delas.</p>
+            <p>Gosto de começar pelo contexto. Busco ouvir quem vive o processo, acompanhar o caminho das informações e
+              transformar problemas reais em interfaces, APIs, integrações e automações que sejam simples de usar e
+              sólidas por dentro.</p>
+            <p>Nos meus projetos, conecto engenharia de software, inteligência artificial e dados para reduzir etapas
+              manuais, aproximar áreas e dar mais clareza às decisões. Trabalho com plataformas, agentes de IA e fluxos
+              sob medida, sempre com atenção à experiência de quem vai usar a solução.</p>
+            <p class="about-learning"><strong>Aprender continuamente faz parte do meu trabalho.</strong> Acompanho as
+              mudanças do mercado de tecnologia, estudo novas abordagens e experimento ferramentas antes de levá-las
+              aos meus projetos. Assim, combino repertório atualizado e senso crítico para escolher o que faz diferença
+              na prática.</p>
+            <p class="about-objective">Meu objetivo é construir sistemas que continuem úteis depois da entrega e
+              evoluam junto com as pessoas e os negócios, levando boas ideias até uma implantação confiável e
+              duradoura.</p>
+            <div class="education">
+              <div class="education-mark">FIAP<span>_</span></div>
+              <div>
+                <h3>Tecnologia em Inteligência Artificial</h3>
+                <p>Software, Machine Learning, Data Science, cloud, redes neurais, cibersegurança, IoT e estatística
+                  computacional.</p>
+              </div>
+            </div>
+            <details class="education-details">
+              <summary>Formação complementar e estudos <svg class="icon">
+                  <use href="#icon-plus" />
+                </svg></summary>
+              <div>
+                <p><strong>Agentes Autônomos (Agentic AI)</strong><br>LLMs, ferramentas, memória, tomada de decisão e
+                  automação de tarefas.</p>
+                <p><strong>Banco de Dados Oracle</strong><br>SQL, modelagem lógica e relacional, normalização e
+                  manipulação de dados.</p>
+                <p><strong>Na graduação</strong><br>AI Challenges; AI Computer Systems & Sensors; Cognitive Data
+                  Science; Computational Thinking with Python; Cognitive Cybersecurity; Machine Learning & Modelling;
+                  Plataformas, Serviços Cognitivos & Cloud Computing; Redes Neurais Artificiais, Deep Learning e
+                  Algoritmos Genéticos; Statistical Computing with R & Python.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="toolkit-heading reveal">
+          <p class="eyebrow">STACK / FERRAMENTAS & CONCEITOS</p>
+          <p>Tecnologia escolhida a partir do problema.</p>
+        </div>
+        <div id="skills-grid" class="skills-grid"></div>
+      </div>
+    </section>
+    <section id="contato" class="section contact-section section-anchor">
+      <div class="contact-grid-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact-top reveal">
+          <p class="eyebrow">05 / PRÓXIMA CONEXÃO</p><span>IDEIAS, PROJETOS & OPORTUNIDADES</span>
+        </div>
+        <div class="contact-main reveal">
+          <h2>Vamos construir<br>algo <span class="accent">juntos?</span><span class="contact-cursor"
+              aria-hidden="true">_</span></h2>
+          <div>
+            <p>Tem um processo para melhorar, uma aplicação para desenvolver ou uma ideia para tirar do papel?</p><a
+              class="button button-primary magnetic"
+              data-contact-message
+              target="_blank" rel="noopener noreferrer">Conversar no WhatsApp <svg class="icon">
+                <use href="#icon-external" />
+              </svg></a>
+            <div class="phone-line"><a data-contact="phone"></a><button id="copy-phone" type="button"
+                aria-label="Copiar número de telefone"><svg class="icon">
+                  <use href="#icon-copy" />
+                </svg></button><span id="copy-status" role="status"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-social" aria-label="Redes sociais">
+        <a class="footer-social-card footer-social-github" data-contact="github" aria-label="Abrir GitHub de Thomas Holanda" target="_blank" rel="noopener noreferrer"><svg class="icon social-brand-icon" aria-hidden="true">
+            <use href="#icon-github" />
+          </svg><span class="footer-social-copy"><strong>GitHub</strong><small>ThatsTom</small></span></a>
+        <a class="footer-social-card footer-social-linkedin" data-contact="linkedin" aria-label="Abrir LinkedIn de Thomas Holanda" target="_blank" rel="noopener noreferrer"><svg class="icon social-brand-icon" aria-hidden="true">
+            <use href="#icon-linkedin" />
+          </svg><span class="footer-social-copy"><strong>LinkedIn</strong><small>Thomas Holanda</small></span></a>
+        <a class="footer-social-card footer-social-instagram" data-contact="instagram" aria-label="Abrir Instagram @tomholanda" target="_blank" rel="noopener noreferrer"><svg class="icon social-brand-icon" aria-hidden="true">
+            <use href="#icon-instagram" />
+          </svg><span class="footer-social-copy"><strong>Instagram</strong><small>@tomholanda</small></span></a>
+        <a class="footer-social-card footer-social-whatsapp" data-contact="whatsapp" aria-label="Conversar com Thomas pelo WhatsApp" target="_blank" rel="noopener noreferrer"><svg class="icon social-brand-icon" aria-hidden="true">
+            <use href="#icon-whatsapp" />
+          </svg><span class="footer-social-copy"><strong>WhatsApp</strong><small data-contact-display="phone">+55 (11) 93020-7096</small></span></a>
+      </nav>
+      <a class="back-top" href="#inicio">VOLTAR AO TOPO <span aria-hidden="true">↑</span></a>
+      <p class="footer-credit">Desenvolvido por <strong>Tomholanda</strong></p>
+    </div>
+  </footer>
+  <a class="floating-contact" data-contact="whatsapp" target="_blank" rel="noopener noreferrer"
+    aria-label="Conversar com Thomas no WhatsApp"><svg class="icon">
+      <use href="#icon-whatsapp" />
+    </svg><span>Vamos conversar</span></a>
+  <dialog id="area-dialog" class="project-dialog area-dialog" aria-labelledby="area-dialog-title">
+    <div class="dialog-top"><span id="area-dialog-code" class="small-label">APRESENTAÇÃO / ÁREAS</span><button
+        id="area-dialog-close" type="button" class="icon-button" aria-label="Fechar apresentação"><svg class="icon">
+          <use href="#icon-close" />
+        </svg></button></div>
+    <div id="area-dialog-content" class="dialog-content"></div>
+  </dialog>
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-top"><span id="dialog-index" class="small-label"></span><button id="dialog-close" type="button"
+        class="icon-button" aria-label="Fechar detalhes da solução"><svg class="icon">
+          <use href="#icon-close" />
+        </svg></button></div>
+    <div id="dialog-content" class="dialog-content"></div>
+  </dialog>
+  <noscript>
+    <div class="noscript-notice">Ative o JavaScript para explorar os cards e a demonstração interativa. Você também pode
+      conhecer outras referências no <a data-contact="github">GitHub</a>.</div>
+  </noscript>
+</body>
+
+</html>
