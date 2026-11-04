@@ -6,35 +6,9 @@
 
 Software que conecta pessoas, dados e processos — da ideia à entrega.
 
-[Sobre mim](#sobre-mim) · [Soluções](#soluções-em-destaque) · [Contato](#contato)
-
 </div>
 
 ---
-
-## Sobre mim
-
-Sou **Thomas R. de Holanda**, desenvolvedor Full Stack com foco em inteligência artificial e automação. Minha curiosidade vai além do código: quero entender como as pessoas trabalham e transformar problemas reais em sistemas que facilitem a rotina delas.
-
-Gosto de começar pelo contexto, ouvir quem vive o processo e acompanhar o caminho das informações. A partir disso, construo interfaces, APIs, integrações e agentes de IA sob medida. Meu objetivo é entregar soluções simples de usar, sólidas por dentro e capazes de evoluir com o negócio.
-
-## O que eu desenvolvo
-
-- **Aplicações Full Stack:** plataformas e sistemas internos conectados às regras de cada operação.
-- **Agentes de IA e automação:** conversas que preservam contexto e podem executar tarefas do dia a dia.
-- **Integrações:** conexão entre ERPs, APIs, dados e ferramentas que hoje trabalham separadas.
-- **Dados e IA aplicada:** dashboards, pipelines, RAG, busca vetorial e modelos orientados a problemas concretos.
-
-## Soluções em destaque
-
-| Solução | O que apresenta |
-| --- | --- |
-| **Atalanta** | Central de operações modular que reúne equipes, informações, processos e ferramentas sob medida. |
-| **Samira** | Agente de IA que criei para conversar, qualificar oportunidades e executar etapas da rotina comercial. |
-| **RAG, bancos vetoriais & fine-tuning** | Aplicações de IA conectadas ao conhecimento da empresa, com busca contextual e ajuste de comportamento quando necessário. |
-| **Integrações com ERPs** | Análise da rotina e automações sob medida para conectar plataformas, dados e pessoas. |
-
-Também exploro **Machine Learning, pipelines IoT e desenvolvimento seguro** conforme o contexto de cada projeto.
 
 ## Contato
 
